@@ -100,3 +100,15 @@ html,body{
     height: 10vw;
     border-radius: 1vw;
 }
+@media (max-width: 580px){
+    #Secciones{
+        display: flex;
+        flex-direction: column;
+    }
+    #SeccionDer, #SeccionIzq{
+        width: 100vw;
+    }
+    .ssd{
+        width: 70vw !important;
+    }
+}
