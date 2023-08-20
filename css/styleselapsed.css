@@ -2,47 +2,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 5vw;
 }
 
 .elapsed-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .yellow-box {
     display: flex;
     flex-direction: column;
     border: 2px solid yellow;
-    padding: 10px;
+    justify-content: center !important;
+    align-items: center;
+    /* padding: 1vw; */
 }
 
 .number-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 2vw;
+    height: 2vw;
     border: 2px solid red;
-    border-radius: 10px;
+    border-radius: 0.5vw;
+    padding: 1vw;
 }
 
 .text-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
+    width: 5vw;
     border: 2px solid blue;
     border-radius: 10px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .number {
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
 .text {
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 

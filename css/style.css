@@ -24,9 +24,8 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    gap: 1.5vw;
+
 }
 #SeccionDer a{
     text-decoration: none;
@@ -63,7 +62,7 @@ html,body{
     grid-template-rows: repeat(2, auto); /* 2 filas */
     gap: 0.2em; /* Espacio entre imágenes */
     width: 25vw;
-    height: 12vw;
+    height: 15vw;
     padding: 1vw;
     background-color: red;
     border-radius: 0 0 1vw 1vw ;
@@ -80,7 +79,8 @@ html,body{
     align-items: center;
     width: 100%; /* Ocupa todo el ancho del contenedor */
      /* Ocupa todo el alto del contenedor */
-    /* Ajusta la imagen al tamaño del contenedor y recorta lo que no quepa */
+    /* Ajusta la imagen al    padding-top: 1vw;
+    padding-bottom: 1vw; tamaño del contenedor y recorta lo que no quepa */
 }
 #map{
     width: 23vw;
@@ -99,6 +99,10 @@ html,body{
     width: 100%;
     height: 100%;
     border-radius: 1vw;
+}
+#time{
+    width: 35vw;
+    height: 15vw;
 }
 @media (max-width: 580px){
     #Secciones{
