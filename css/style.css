@@ -96,8 +96,8 @@ html,body{
     border-radius: 0 0 1vw 1vw ;
 }
 #mus{
-    width: 23vw;
-    height: 10vw;
+    width: 100%;
+    height: 100%;
     border-radius: 1vw;
 }
 @media (max-width: 580px){
@@ -109,6 +109,18 @@ html,body{
         width: 100vw;
     }
     .ssd{
-        width: 70vw !important;
+        width: 80vw !important;
+    }
+    .encabezado{
+        height: 12vw !important;
+        border-radius: 5vw 5vw 0 0 !important;
+    }
+    .cuerpo{
+        height: 50vw !important;
+        border-radius: 0 0 5vw 5vw !important;
+    }
+    #imga{
+        height: 50vw !important;
+        
     }
 }
