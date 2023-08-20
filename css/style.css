@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#Secciones{
+    display: flex;
+    flex-direction: row;
+}
+#SeccionIzq{
+    width: 70vw;
+    height: 100%;
+    border: 1px solid red;
+}
+#SeccionDer{
+    border: 1px solid red;
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+#SeccionDer a{
+    text-decoration: none;
+    color: black;
+}
+#Album, #Canciones, #Mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#Encabezado{
+    display: flex;
+    width: 25vw;
+    height: 3vw;
+    align-items: center;
+    gap: 1vw;
+    padding: 1vw;
+    background-color: blue;
+    border-radius: 1vw 1vw 0 0;
+}
+#imgfoto{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#Secimg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); /* 2 filas */
+    gap: 0.2em; /* Espacio entre imágenes */
+    width: 25vw;
+    height: 12vw;
+    padding: 1vw;
+    background-color: red;
+    border-radius: 0 0 1vw 1vw ;
+}
+#imgalbum{
+    width: 100%; /* Ancho del viewport */
+    height: 100%;
+    border-radius: 1vw;
+    overflow: hidden; /* Oculta cualquier parte de la imagen que no quepa */
+
+}
+#imga{
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+     /* Ocupa todo el alto del contenedor */
+    /* Ajusta la imagen al tamaño del contenedor y recorta lo que no quepa */
+}
+#map{
+    width: 23vw;
+    height: 10vw;
+    border-radius: 1vw;
+}
+#Secmus{
+    gap: 0.2em; /* Espacio entre imágenes */
+    width: 25vw;
+    height: 12vw;
+    padding: 1vw;
+    background-color: red;
+    border-radius: 0 0 1vw 1vw ;
+}
+#mus{
+    width: 23vw;
+    height: 10vw;
+    border-radius: 1vw;
+}

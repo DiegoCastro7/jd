@@ -1,0 +1,48 @@
+.elapsed-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.elapsed-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.yellow-box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+.number-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.number {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 18px;
+}
+
