@@ -8,7 +8,11 @@ html,body{
     width: 100%;
     background-color: #c4e1f5;
 }
-
+#Ourstory{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
 h1, .number{
     font-size: 1.5vw;
     font-family:Tahoma
