@@ -37,11 +37,11 @@ p, .text{
 #SeccionIzq{
     width: 70vw;
     height: 100vh !important;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0 3vw 3vw 3vw;
 }
 #SeccionDer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 30vw;
     height: 100vh !important;
     display: flex;
