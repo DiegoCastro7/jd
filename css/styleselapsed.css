@@ -13,7 +13,7 @@
 .yellow-box {
     display: flex;
     flex-direction: column;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     justify-content: center !important;
     align-items: center;
     /* padding: 1vw; */
@@ -25,7 +25,7 @@
     align-items: center;
     width: 2vw;
     height: 2vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 0.5vw;
     padding: 1vw;
 }
@@ -34,8 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5vw;
-    border: 2px solid blue;
+    width: 7vw;
+    /* border: 2px solid blue; */
     border-radius: 10px;
     /* margin-top: 5px; */
 }

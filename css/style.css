@@ -6,6 +6,25 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: #c4e1f5;
+}
+
+h1, .number{
+    font-size: 2vw;
+    font-family:Tahoma
+}
+h2{
+    font-size: 1.5vw;
+    font-family:Tahoma;
+    color: white;
+    margin-bottom: 0 !important;
+}
+p, .text{
+    font-size: 1.2vw;
+}
+#titbox{
+    display: flex;
+    gap: 1vh;
 }
 #Secciones{
     display: flex;
@@ -13,13 +32,14 @@ html,body{
 }
 #SeccionIzq{
     width: 70vw;
-    height: 100%;
+    height: 100vh !important;
     border: 1px solid red;
+    padding: 0 3vw 3vw 3vw;
 }
 #SeccionDer{
     border: 1px solid red;
     width: 30vw;
-    height: 100%;
+    height: 100vh !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +65,7 @@ html,body{
     align-items: center;
     gap: 1vw;
     padding: 1vw;
-    background-color: blue;
+    background-color: #1D5D9B;
     border-radius: 1vw 1vw 0 0;
 }
 #imgfoto{
@@ -64,7 +84,7 @@ html,body{
     width: 25vw;
     height: 15vw;
     padding: 1vw;
-    background-color: red;
+    background-color: #75C2F6;
     border-radius: 0 0 1vw 1vw ;
 }
 #imgalbum{
@@ -92,19 +112,37 @@ html,body{
     width: 25vw;
     height: 12vw;
     padding: 1vw;
-    background-color: red;
+    background-color: #75C2F6;
     border-radius: 0 0 1vw 1vw ;
+    
 }
 #mus{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
     border-radius: 1vw;
-}
-#time{
-    width: 35vw;
-    height: 15vw;
+    background-image: url('../images/morat.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Esto hará que la imagen de fondo cubra todo el body */
+    background-repeat: no-repeat; /* Esto evitará que la imagen se repita */
+    background-position: center;
+    
 }
 @media (max-width: 580px){
+    h1,h2, .number{
+        font-size: 5vw;
+    }
+    p, .text{
+        font-size: 2.5vw;
+    }
+    .number-box {
+        width: 100vw;
+        height: 100vw;
+    }
+    .text-box {
+        width: 12vw !important;
+        height: 6vw !important;
+    }
     #Secciones{
         display: flex;
         flex-direction: column;
